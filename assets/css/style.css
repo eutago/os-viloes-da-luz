@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+html,
+body {
+  font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+
+h1,
+h2 {
+  color: #111111;
+}
+
+.top-bar {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 5px solid #fd8a24;
+}
+
+.container {
+  max-width: 888px;
+  margin: auto;
+  padding: 30px;
+}
+
+.headline {
+  font-size: 56px;
+  line-height: 64px;
+  margin: 16px 0;
+}
+
+.sub-title {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 30px;
+  padding: 10px 10px 10px 0;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #000000;
+}
+
+main {
+  max-width: 648px;
+  margin: auto;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.cta {
+  margin: 30px 0;
+}
+
+.cta > a {
+  font-weight: 700;
+  color: #fd8a24;
+  font-size: 20px;
+}
